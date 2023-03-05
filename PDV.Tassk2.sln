@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDV.Tassk2", "PDV.Tassk2\PDV.Tassk2.csproj", "{661D41E4-AC60-4BF2-AAB5-DBAEE9C56482}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{661D41E4-AC60-4BF2-AAB5-DBAEE9C56482}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{661D41E4-AC60-4BF2-AAB5-DBAEE9C56482}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{661D41E4-AC60-4BF2-AAB5-DBAEE9C56482}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{661D41E4-AC60-4BF2-AAB5-DBAEE9C56482}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D01DC3B7-BC46-42C6-B404-D46CD40D534B}
+	EndGlobalSection
+EndGlobal

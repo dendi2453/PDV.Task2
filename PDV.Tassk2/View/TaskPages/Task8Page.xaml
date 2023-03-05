@@ -1,0 +1,90 @@
+﻿<Page x:Class="PDV.Tassk2.View.TaskPages.Task8Page"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PDV.Tassk2.View.TaskPages"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      mc:Ignorable="d" 
+      d:DesignHeight="450"
+      d:DesignWidth="800"
+      Title="Task8Page">
+
+    <Border>
+        <Grid>
+            <Image x:Name="_9_jpg" Source="/Images/9.jpg"
+                   Stretch="UniformToFill"/>
+
+            <Border HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Width="260"
+                    Height="154"
+                    Margin="113,71,0,0"
+                    CornerRadius="50,50,50,50"
+                    Effect="{StaticResource MaterialDesignElevationShadow16}" Background="#FF5B4130">
+                <Grid>
+                    <TextBlock Text="(x ≥ 0) ʌ (y^2 ≠ 4)" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Black" FontSize="20" Margin="0,0,0,100" FontWeight="Bold"/>
+                    <TextBlock Text="x=1, y=2" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Black" FontSize="20" TextAlignment="Center" Margin="0,0,0,25" FontWeight="Bold"/>
+                    <StackPanel Grid.Row="1"
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center">
+                        <StackPanel Orientation="Horizontal"/>
+
+                        <StackPanel Orientation="Horizontal"
+                                    Margin="0 10 0 0"/>
+
+                        <Button Margin="3,50,3,3"
+                                Background="#FF5B4130"
+                                x:Name="BtnTask8_1"
+                                Click="BtnTask8_1_Click"
+                                Foreground="Black" BorderBrush="Black" FontSize="20">
+                            <StackPanel Orientation="Horizontal">
+                                <materialDesign:PackIcon Kind="Check"/>
+                            </StackPanel>
+                        </Button>
+                    </StackPanel>
+                </Grid>
+            </Border>
+            <Border HorizontalAlignment="Right"
+                    VerticalAlignment="Top"
+                    Width="260"
+                    Height="154"
+                    Margin="0,225,99,0"
+                    CornerRadius="50,50,50,50"
+                    Effect="{StaticResource MaterialDesignElevationShadow16}" Background="#FF5B4130">
+                <Grid>
+                    <TextBlock Text="(x * y ≠ 0) v (y > x)" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Black" FontSize="20" Margin="0,0,0,100" FontWeight="Bold"/>
+                    <TextBlock Text="x=2, y=1" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Black" FontSize="20" TextAlignment="Center" Margin="0,0,0,25" FontWeight="Bold"/>
+                    <StackPanel Grid.Row="1"
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center">
+                        <StackPanel Orientation="Horizontal"/>
+
+                        <StackPanel Orientation="Horizontal"
+                                    Margin="0 10 0 0"/>
+
+                        <Button Margin="3,50,3,3"
+                                Background="#FF5B4130"
+                                x:Name="BtnTask8_2"
+                                Click="BtnTask8_2_Click"
+                                Foreground="Black" BorderBrush="Black">
+                            <StackPanel Orientation="Horizontal">
+                                <materialDesign:PackIcon Kind="Check"/>
+                            </StackPanel>
+                        </Button>
+                    </StackPanel>
+                </Grid>
+            </Border>
+            <StackPanel HorizontalAlignment="Left"
+                        VerticalAlignment="Top">
+                <Button
+                        Margin="720,10,0,0"
+                        x:Name="BtnMainPage"
+                        Click="BtnMainPage_Click"
+                        Foreground="Black"
+                        Content="Выход"
+                        ToolTip="Вернуться" BorderBrush="Black" Background="#FF5B4130" FontSize="14" FontWeight="Bold"/>
+            </StackPanel>
+        </Grid>
+    </Border>
+</Page>
